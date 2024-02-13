@@ -1,7 +1,7 @@
 /*
 ====================================================================================
 Course: Harper CSC121-002 by Mr. Jin Guo, Spring 2023
-Student Name: <Your Name>
+Student Name: <Zach Perkins>
 
 Program Name: A Simple C++ Program
 Program Description: 
