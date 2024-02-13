@@ -1,0 +1,17 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	MODLOOP           3005
+//	MATHLOOP          3006
+//	SKIP              300E
+//	LINELOOP          3011
+//	CHARACTERLOOP     3015
+//	BITLOOP           3017
+//	SKIP2             3026
+//	NEWLINE           302B
+//	BACKGROUND        302C
+//	FOREGROUND        302D
+//	STRING            302E
+//	FONT_DATA         302F
+

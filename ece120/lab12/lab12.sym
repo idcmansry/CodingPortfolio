@@ -1,0 +1,13 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	LOOP1             3006
+//	OUTERLOOP         300C
+//	INNERLOOP         300E
+//	BACKGROUND        301E
+//	FOREGROUND        301F
+//	CHARACTER         3020
+//	NEWLINE           3021
+//	FONT_DATA         3022
+

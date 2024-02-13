@@ -1,0 +1,36 @@
+Question 1: Describe the errors that occur when trying to assemble lab11.asm. Identify the cause of each error.
+
+ 14: illegal operands for missing opcode		; Our origin opcode was missing when specifying where our program was stored
+ 16: instruction appears before .ORIG			; Same problem as above
+ 17: constant outside of allowed range			; LD takes a offset from the incremented PC instead of a memory location
+ 19: illegal operands for ADD				; Extra comma included
+ 30: constant outside of allowed range			; Same as last load, LD takes a offset from the incremented PC instead of a memory location
+ 32: label OUTERLOOP has already appeared		; The branch had pz instead of zp
+ 42: no .END directive found				; We need to show where the end of file is
+
+ 35: unknown label "xxxx"				; Label was not added
+
+
+
+
+Question 2: For each label in your code (with all bugs fixed), write down the corresponding memory location. 
+
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	OUTERLOOP         3004
+//	INNERLOOP         3005
+//	INPUT             300E
+//	ZERO              300F
+//	DECR              3010
+//	RESULT            3011
+
+We can pull this out of the *.sym file that was created when we compiled.
+
+
+
+
+Question 3: Between using labels and explicit memory locations/offsets, which one makes the most sense, and why?
+
+It's much easier to use labels as if we add any lines into our code, our memory location will change. This is unaffected by labels
