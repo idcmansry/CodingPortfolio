@@ -1,13 +1,3 @@
-   CS 101: Fall 2022 - RELATE const rlUtils = rlBase.rlUtils; const tmpl = rlBase.tmpl; const bootstrap = rlBase.bootstrap;
-
-[CS 101 Fall 2022](
-  
-    /course/cs101-fa22/
-  
-)
-
-@import url('https://fonts.googleapis.com/css?family=B612'); @import url('https://fonts.googleapis.com/css?family=Ubuntu'); @import url('https://fonts.googleapis.com/css?family=Ubuntu%20Mono'); html { font-family: 'B612', sans-serif; } @supports (font-variation-settings: normal) { html { font-family: 'B612', sans-serif; } } h1, h2 { font-family: B612, Helvetica, Arial, sans-serif; color: 3b1c32; size: 36px; } h2, .h2 { font-family: B612, Helvetica, Arial, sans-serif; color: 3b1c32; size: 30px; padding-top: 5px; padding-bottom: 5px; font-size: 20px; border-color: #eec275; margin-top: 0px; margin-left: -5px; } h3, .h3 { font-family: B612, Helvetica, Arial, sans-serif; color: 3b1c32; size: 24px; padding-top: 5px; padding-bottom: 5px; font-size: 20px; border-color: #eec275; margin-top: 0px; margin-left: -5px; } p { font-family: B612, Ubuntu, Arial, sans-serif; padding-bottom: 20px; } @media (min-width: 1200px) { .container{ max-width: 970px; } } blockquote { padding: 10px 20px; margin: 0 0 20px; font-size: inherit; padding-left: 5px; padding-top: 0; padding-bottom: 0; padding-right: 0; border: 0px solid; border-left: 5px solid #eee; padding-bottom: 5px; background-color: #fbfef9; } code, pre { font-family: Ubuntu Mono; Courier; monospace; } <!-- Color Scheme: 9CC0EE 228 0 102 EBA79D 234 196 53 ADCC83 3 206 164 D1B983 52 89 149 5D5D5D 93 93 93 -->
-
 CS 101 Project Milestone #1
 ===========================
 
